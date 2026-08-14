@@ -31,7 +31,7 @@ export const Route = createFileRoute("/")({
       {
         property: "og:description",
         content:
-          "White musk, rum, vanilla, peach, lily, cloves. Artemis is built for men who arrive last and stay longest.",
+          "Artemis by Sarkar. A men's parfum of white musk, rum, vanilla, peach, lily and cloves. 100ml, 25% oil concentration. Incl. of all taxes.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
