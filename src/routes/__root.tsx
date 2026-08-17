@@ -114,6 +114,22 @@ function RootShell({ children }: { children: ReactNode }) {
     <html lang="en">
       <head>
         <HeadContent />
+        {/* Load webfont without blocking first render */}
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap"
+          media="print"
+          // eslint-disable-next-line react/no-unknown-property
+          onLoad={(e) => {
+            (e.currentTarget as HTMLLinkElement).media = "all";
+          }}
+        />
+        <noscript>
+          <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap"
+          />
+        </noscript>
       </head>
       <body>
         {children}
