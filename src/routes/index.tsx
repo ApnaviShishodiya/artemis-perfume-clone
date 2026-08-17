@@ -2,21 +2,21 @@ import { createFileRoute } from "@tanstack/react-router";
 import { Menu, ShoppingCart, Minus, Plus } from "lucide-react";
 import { useState } from "react";
 
-import bottle from "@/assets/artemis-bottle.jpg";
-import packaging from "@/assets/artemis-packaging.jpg";
-import model from "@/assets/artemis-model.jpg";
-import pyramid from "@/assets/artemis-pyramid.jpg";
-import shadow from "@/assets/artemis-shadow.jpg";
-import unisexHero from "@/assets/artemis-hero.jpg";
-import car from "@/assets/artemis-car.jpg";
-import leather from "@/assets/artemis-leather.jpg";
-import notesFlatlay from "@/assets/artemis-notes.jpg";
-import noteMusk from "@/assets/note-white-musk.jpg";
-import noteRum from "@/assets/note-rum.jpg";
-import noteVanilla from "@/assets/note-vanilla.jpg";
-import notePeach from "@/assets/note-peach.jpg";
-import noteLily from "@/assets/note-lily.jpg";
-import noteCloves from "@/assets/note-cloves.jpg";
+import bottle from "@/assets/artemis-bottle.webp";
+import packaging from "@/assets/artemis-packaging.webp";
+import model from "@/assets/artemis-model.webp";
+import pyramid from "@/assets/artemis-pyramid.webp";
+import shadow from "@/assets/artemis-shadow.webp";
+import unisexHero from "@/assets/artemis-hero.webp";
+import car from "@/assets/artemis-car.webp";
+import leather from "@/assets/artemis-leather.webp";
+import notesFlatlay from "@/assets/artemis-notes.webp";
+import noteMusk from "@/assets/note-white-musk.webp";
+import noteRum from "@/assets/note-rum.webp";
+import noteVanilla from "@/assets/note-vanilla.webp";
+import notePeach from "@/assets/note-peach.webp";
+import noteLily from "@/assets/note-lily.webp";
+import noteCloves from "@/assets/note-cloves.webp";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -108,6 +108,9 @@ function Index() {
                 alt="Artemis 100ml parfum bottle by Sarkar"
                 width={1200}
                 height={1200}
+                sizes="(max-width: 1024px) 100vw, 620px"
+                fetchPriority="high"
+                decoding="async"
                 className="w-full max-w-[620px]"
               />
             </div>
