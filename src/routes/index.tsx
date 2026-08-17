@@ -108,6 +108,9 @@ function Index() {
                 alt="Artemis 100ml parfum bottle by Sarkar"
                 width={1200}
                 height={1200}
+                sizes="(max-width: 1024px) 100vw, 620px"
+                fetchPriority="high"
+                decoding="async"
                 className="w-full max-w-[620px]"
               />
             </div>
