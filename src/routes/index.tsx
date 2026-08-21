@@ -152,7 +152,7 @@ function Index() {
               It smells like white musk, rum and the last word of the night.
             </p>
 
-            <p className="mt-6 font-display text-3xl font-semibold">₹ 2,499</p>
+            <p className="mt-6 font-display text-3xl font-semibold">₹ 20,500</p>
             <p className="mt-1 text-xs text-muted-foreground">Incl. of all taxes</p>
 
             <p className="mt-8 text-sm font-medium">Fragrance notes</p>
